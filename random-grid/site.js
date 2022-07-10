@@ -1,6 +1,6 @@
-const count = 20;
+const count = 17;
 const size = 20;
-const offset = size;
+const offset = 10;
 var distortion = 0.0;
 
 function drawLine(startX, startY, endX, endY) {
