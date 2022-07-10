@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Drawing a Line</title>
+    <!--<link rel="stylesheet" href="css/style.css"> -->
+</head>
+
+<body>
+    <div>
+        
+        <canvas id="canvas" height="425" width="425">
+        </canvas>
+    </div>
+    <div>
+        <input id="distortion" type="range" min="0" max="1" step="0.01" onchange="changeDistortion()" value="0">
+    </div>
+    <div>
+        <button onclick="randomize()">Randomize</button>
+    </div>
+    <script src="site.js"></script>
+</body>
+
+</html>
