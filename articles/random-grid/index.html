@@ -1,0 +1,27 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Grid</title>
+  </head>
+  <body>
+    
+<div class="container">
+    <div>
+        <h2>Random Grid</h2>
+        <canvas id="canvas" height="325" width="325">
+        </canvas>
+    </div>
+    <div>
+        <input id="distortion" type="range" min="0" max="1" step="0.01" onchange="changeDistortion()" value="0">
+    </div>
+    <div>
+        <button onclick="randomize()">Randomize</button>
+    </div>
+
+</div>
+<script src="site.js"></script>
+  </body>
+</html>
