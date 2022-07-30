@@ -6,14 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perlin Noise</title>
     
+    <link rel="stylesheet" href="/css/article.css" />
   </head>
   <body>
-    
+    <header>
+      <h1><a href="/">Yanhamu pages</a></h1>
+      <div>Tomas Kriska</div>
+      <a href="/articles/cv">CV</a>
+    </header>
+    <main>
+      
 <div class="container">
     <h1>Perlin Noise</h4>
     <div>
         <h2>Perlin noise 1d</h2>
-        <canvas id="canvas-perlin-noise-1d" height="400" width="600">
+        <canvas id="canvas-perlin-noise-1d" width="300" height="300">
         </canvas>
     </div>
     <div>
@@ -26,13 +33,17 @@
         <input id="scaling" type="range" min="1" max="5" step="0.2" onchange="changeScaling()" value="2">
     </div>
 
-
     <div>
         <h2>Perlin noise 2d</h2>
-        <canvas id="canvas-perlin-noise-2d" height="400" width="600">
+        <canvas id="canvas-perlin-noise-2d" width="300" height="300">
         </canvas>
     </div>
 </div>
-<script src="site.js"></script>
+    </main>
   </body>
+  
+      
+        <script src="site.js"></script>
+      
+    
 </html>

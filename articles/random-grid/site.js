@@ -1,5 +1,5 @@
-const count = 15;
 const size = 20;
+const count = 15;
 const offset = size;
 var distortion = 0.0;
 
@@ -37,7 +37,7 @@ function drawGrid(grid) {
     const canvas = document.querySelector('#canvas');
     const context = canvas.getContext('2d');
     context.clearRect(0, 0, canvas.width, canvas.height);
-    context.fillStyle = "#fff6e7";
+    context.fillStyle = "#ffffff";
     context.fillRect(0, 0, canvas.width, canvas.height);
 
     let max = count - 1;

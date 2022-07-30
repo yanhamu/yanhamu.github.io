@@ -1,0 +1,23 @@
+ul {
+    list-style-type: none;
+}
+
+header {
+    text-align: center;
+    display: block;
+}
+
+header>h1 {
+    padding-top: 5px;
+    margin-top: 0;
+}
+
+body{
+    margin: 0;
+}
+
+main div {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
