@@ -1,0 +1,42 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Grid</title>
+  
+  <link rel="stylesheet" href="/css/tailwind.css">
+</head>
+<body class="bg-zinc-100">
+  <header class=" bg-zinc-200">
+    <div class="px-6 text-center">
+      <a class="mb-2 text-3xl font-bold" href="/">Yanhamu's pages</a>
+    </div>
+  </header>
+  <main>
+    <div>
+      <h1 class="text-4xl text-center">Random Grid</h1>
+    </div>
+    <div>
+      
+<div class="container mx-auto px-10">
+    <div>
+        <canvas id="canvas" height="325" width="325"></canvas>
+    </div>
+    <div>
+        <input id="distortion" type="range" min="0" max="1" step="0.01" onchange="changeDistortion()" value="0">
+    </div>
+    <div>
+        <button class="bg-blue-500 rounded text-white font-bold py-2 px-4" onclick="randomize()">Randomize</button>
+    </div>
+</div>
+    </div>
+  </main>
+</body>
+
+
+<script src="site.js"></script>
+
+
+</html>

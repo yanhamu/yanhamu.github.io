@@ -37,7 +37,7 @@ function drawGrid(grid) {
     const canvas = document.querySelector('#canvas');
     const context = canvas.getContext('2d');
     context.clearRect(0, 0, canvas.width, canvas.height);
-    context.fillStyle = "#ffffff";
+    context.fillStyle = "#f4f4f5";
     context.fillRect(0, 0, canvas.width, canvas.height);
 
     let max = count - 1;
