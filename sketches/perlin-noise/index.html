@@ -20,28 +20,26 @@
     </div>
     <div>
       
-<div class="container">
-    <h1>Perlin Noise</h4>
-    <div>
-        <h2>Perlin noise 1d</h2>
-        <canvas id="canvas-perlin-noise-1d" width="300" height="300">
-        </canvas>
-    </div>
-    <div>
-        <button onclick="randomize()">Randomize</button>
-    </div>
-    <div>
-        <input id="octaves" type="range" min="1" max="8" step="1" onchange="changeOctaves()" value="7">
-    </div>
-    <div>
-        <input id="scaling" type="range" min="1" max="5" step="0.2" onchange="changeScaling()" value="2">
+<div class="container flex flex-col">
+
+    <div class="flex flex-row justify-evenly">
+        <div>
+            <h2>Perlin noise 1d</h2>
+            <canvas class="mx-auto" id="canvas-perlin-noise-1d" width="300" height="300"></canvas>
+        </div>
+        <div>
+            <h2>Perlin noise 2d</h2>
+            <canvas class="mx-auto" id="canvas-perlin-noise-2d" width="300" height="300"></canvas>
+        </div>
     </div>
 
-    <div>
-        <h2>Perlin noise 2d</h2>
-        <canvas id="canvas-perlin-noise-2d" width="300" height="300">
-        </canvas>
-    </div>
+    <button class="bg-blue-500 rounded text-white font-bold py-2 mt-4 mx-auto w-52" onclick="randomize()">Randomize</button>
+
+    <label>Octaves</label>
+    <input id="octaves" class="mx-10" type="range" min="1" max="8" step="1" onchange="changeOctaves()" value="7">
+
+    <label>Scaling</label>
+    <input id="scaling" class="mx-10" type="range" min="1" max="5" step="0.2" onchange="changeScaling()" value="2">
 </div>
     </div>
   </main>
