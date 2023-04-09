@@ -1,0 +1,39 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Walk</title>
+  
+  <link rel="stylesheet" href="/css/tailwind.css">
+</head>
+<body class="bg-zinc-100">
+  <header class=" bg-zinc-200">
+    <div class="px-6 text-center">
+      <a class="mb-2 text-3xl font-bold" href="/">Yanhamu's pages</a>
+    </div>
+  </header>
+  <main>
+    <div>
+      <h1 class="text-4xl text-center">Random Walk</h1>
+    </div>
+    <div>
+      
+<div id="main" class="container flex flex-col">
+    <svg class="mx-auto" id="svg"></svg>
+    <button id="randomize" class="bg-blue-500 rounded text-white font-bold py-2 mt-4 mx-auto w-52">Randomize</button>
+    <label>Steps</label>
+    <input id="stepsRange" class="mx-10" type="range" min="10" max="10000" step="5" value="1000">
+</div>
+    </div>
+  </main>
+</body>
+
+  
+  <script src="page.js"></script>
+  
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  
+
+</html>
